@@ -38,3 +38,4 @@ You can run the script with command line arguments to specify a single IP or a r
 ```bash
 python network_scanner.py --ip <single_ip>  # To scan a single IP
 python network_scanner.py --range <ip_range>  # To scan an IP range (e.g., 192.168.1.1/24)
+python network_scanner.py --csv <csv_file>  # To scan a IP csv file
