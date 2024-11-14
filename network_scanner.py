@@ -49,7 +49,6 @@ def scan_ip(ip):
 		'ip': device_ip,
 		'mac': device_mac
 	    }
-	    print(device)
 	    devices.append(device)  # Append device to list
     
 	return devices
